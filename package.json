@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-easy-swipe": "^0.0.22",
+    "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
+    "tailwindcss": "^3.0.23",
+    "twin.macro": "^2.8.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +40,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "@babel/preset-react": "^7.16.7",
+    "@emotion/babel-plugin": "^11.7.2",
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
+    "@popperjs/core": "^2.11.4",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-macros": "^3.1.0"
   }
 }
